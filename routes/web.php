@@ -11,6 +11,22 @@
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('About');
+    
 });
+
+Route::get('/News', function () {
+    return view('News');
+
+});
+Route::get('/Signup', function () {
+    return view('Sign');
+
+});
+Route::get('/login', function () {
+    return view('Login');
+
+});
+
